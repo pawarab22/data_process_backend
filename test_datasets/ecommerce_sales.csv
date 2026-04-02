@@ -1,0 +1,11 @@
+order_id,customer_name,product_category,price,quantity,order_date,status
+ORD-001,Alice Smith,Electronics,299.99,1,2023-10-01,Delivered
+ORD-002,Bob Johnson,Clothing,45.50,2,2023-10-02,Shipped
+ORD-003,Charlie Brown,Home & Garden,120.00,1,2023-10-03,Processing
+ORD-004,Diana Prince,Electronics,899.00,1,2023-10-04,Delivered
+ORD-005,Evan Wright,Sports,55.20,3,2023-10-05,Cancelled
+ORD-006,Fiona Gallagher,Clothing,29.99,1,2023-10-06,Delivered
+ORD-007,George Miller,Home & Garden,210.50,2,2023-10-07,Shipped
+ORD-008,Hannah Abbott,Toys,15.99,4,2023-10-08,Delivered
+ORD-009,Ian Malcolm,Electronics,149.99,1,2023-10-09,Processing
+ORD-010,Julia Child,Books,22.00,5,2023-10-10,Delivered

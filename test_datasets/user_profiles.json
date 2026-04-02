@@ -1,0 +1,54 @@
+[
+  {
+    "userId": "usr_abc123",
+    "username": "coder_ninja",
+    "email": "coder@example.com",
+    "age": 28,
+    "isActive": true,
+    "address": {
+      "city": "San Francisco",
+      "state": "CA",
+      "country": "USA"
+    },
+    "tags": ["developer", "gaming", "tech"]
+  },
+  {
+    "userId": "usr_def456",
+    "username": "design_guru",
+    "email": "design@example.com",
+    "age": 34,
+    "isActive": false,
+    "address": {
+      "city": "London",
+      "state": "England",
+      "country": "UK"
+    },
+    "tags": ["designer", "art", "photography"]
+  },
+  {
+    "userId": "usr_ghi789",
+    "username": "data_wizard",
+    "email": "data@example.com",
+    "age": 41,
+    "isActive": true,
+    "address": {
+      "city": "Toronto",
+      "state": "ON",
+      "country": "Canada"
+    },
+    "tags": ["data science", "machine learning", "analytics"]
+  },
+  {
+    "userId": "usr_jkl012",
+    "username": "product_manager",
+    "email": "pm@example.com",
+    "age": 31,
+    "isActive": true,
+    "address": {
+      "city": "Berlin",
+      "state": "Berlin",
+      "country": "Germany"
+    },
+    "tags": ["agile", "scrum", "leadership"]
+  }
+]

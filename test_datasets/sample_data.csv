@@ -1,0 +1,11 @@
+id,name,role,department,salary,join_date
+1,Steve Rogers,Manager,Engineering,120000,2023-01-15
+2,Natasha Romanoff,Developer,Engineering,110000,2023-02-10
+3,Bruce Banner,Scientist,R&D,150000,2022-11-20
+4,Tony Stark,CTO,Engineering,200000,2022-10-01
+5,Clint Barton,Analyst,Operations,90000,2023-03-05
+6,Thor Odinson,Support,Operations,85000,2023-04-12
+7,Wanda Maximoff,Designer,Marketing,95000,2023-05-18
+8,Vision,Architect,Engineering,130000,2023-01-30
+9,Peter Parker,Intern,Engineering,50000,2023-06-01
+10,Sam Wilson,Lead,Operations,105000,2023-07-10

@@ -1,0 +1,7 @@
+[
+  { "id": 101, "item": "Macbook Pro", "category": "Laptops", "price": 2500, "meta": { "color": "Silver" } },
+  { "id": 102, "item": "Dell XPS", "category": "Laptops", "price": 1800, "meta": { "color": "Black" } },
+  { "id": 103, "item": "iPhone 15", "category": "Phones", "price": 1200, "meta": { "color": "White" } },
+  { "id": 104, "item": "Pixel 8", "category": "Phones", "price": 999, "meta": { "color": "Hazel" } },
+  { "id": 105, "item": "iPad Air", "category": "Tablets", "price": 699, "meta": { "color": "Blue" } }
+]

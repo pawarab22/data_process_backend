@@ -1,0 +1,47 @@
+[
+  {
+    "id": 101,
+    "name": "Wireless Noise-Cancelling Headphones",
+    "category": "Electronics",
+    "price": 299.99,
+    "stock": 45,
+    "rating": 4.8,
+    "features": ["Bluetooth 5.0", "Active Noise Cancellation", "30h Battery"]
+  },
+  {
+    "id": 102,
+    "name": "Men's Cotton Casual Shirt",
+    "category": "Clothing",
+    "price": 35.00,
+    "stock": 120,
+    "rating": 4.2,
+    "features": ["100% Cotton", "Machine Washable"]
+  },
+  {
+    "id": 103,
+    "name": "Smart Home Hub",
+    "category": "Electronics",
+    "price": 149.50,
+    "stock": 30,
+    "rating": 4.5,
+    "features": ["Voice Control", "Compatible with Zigbee Hub", "Wi-Fi"]
+  },
+  {
+    "id": 104,
+    "name": "Ceramic Coffee Mug Set",
+    "category": "Home & Garden",
+    "price": 24.99,
+    "stock": 200,
+    "rating": 4.7,
+    "features": ["Microwave Safe", "Dishwasher Safe", "Pack of 4"]
+  },
+  {
+    "id": 105,
+    "name": "Yoga Mat with Alignment Lines",
+    "category": "Sports",
+    "price": 45.00,
+    "stock": 85,
+    "rating": 4.9,
+    "features": ["Eco-friendly TPE", "Non-slip", "Carrying Strap Included"]
+  }
+]

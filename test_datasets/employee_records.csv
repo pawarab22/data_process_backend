@@ -1,0 +1,11 @@
+emp_id,first_name,last_name,department,salary,join_date,is_active
+E1001,John,Doe,Engineering,95000,2020-01-15,true
+E1002,Jane,Smith,Marketing,78000,2021-03-22,true
+E1003,Michael,Scott,Sales,85000,2018-05-10,true
+E1004,Pam,Beesly,HR,65000,2019-11-01,true
+E1005,Jim,Halpert,Sales,82000,2020-02-14,true
+E1006,Dwight,Schrute,Sales,90000,2017-08-20,false
+E1007,Angela,Martin,Finance,92000,2018-12-05,true
+E1008,Kevin,Malone,Finance,70000,2019-04-18,true
+E1009,Oscar,Martinez,Finance,88000,2018-01-09,true
+E1010,Kelly,Kapoor,Customer Service,62000,2021-07-30,false
