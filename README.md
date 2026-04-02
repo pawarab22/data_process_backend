@@ -67,12 +67,16 @@ The server will default to listening on port `5000`. You can verify it's working
 4. **In-Memory Transformation & Querying Strategy**
    - To accommodate querying fields dynamically without risking SQL Injection via arbitrary queries constructed purely from user inputs, complex data transformations (such as `filtering`, `grouping`, and metric `aggregations`) are processed in-memory within the `TransformationService`.
 
+5. **Pagination & Global Searching**
+   - Global searching (finding arbitrary keywords across unspecified headers/JSON keys) and limiting slice counts via `limit` / `page` parameters are securely executed synchronously. 
+   - Datasets are chunked post-processing ensuring the client/UI receives exact mathematically computed boundaries without crashing under mega-payload renders.
+
 ---
 
 ## ⚠️ Assumptions Made
 
 1. **File Footprint & System Resources**
-   - **Scale Focus:** It is reasonably assumed that testing files and uploaded datasets are small-to-medium files (under 15-20MB). Both the Multer memory buffer and the current in-memory `Array` mapping transformation iterations naturally consume server/instance RAM proportional to the size of the dataset.
+   - **Scale Focus:** It is reasonably assumed that testing files and uploaded datasets are small-to-medium files (under 15-20MB). Both the Multer memory buffer and the current in-memory `Array` mapping transformation iterations (including fetching the entire `JSONB` stack for full pagination index computations) naturally consume server/instance RAM proportional to the size of the dataset.
 
 2. **Filtering Condition Parameters**
    - Filtering operations primarily account for string and numeric scalar comparisons (`eq`, `ne`, `gt`, `lt`). Heavily sorting and parsing deeply nested multi-dimensional `JSON` sub-arrays require correctly specified query payloads on the client end manually targeting dot-notation equivalents in specific use-cases.
